@@ -1,0 +1,536 @@
+@font-face {
+    font-family: sansation_light; 
+    src: url(fonts/Sansation_Light.ttf); 
+}
+@font-face {
+    font-family: sansation_bold; 
+    src: url(fonts/Sansation_Bold.ttf); 
+}
+
+html, body {
+    width: 99%;
+    margin: 0 auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_main{
+    color: white;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px double rgba(255, 255, 255, 0.1);
+}
+
+.menu_main li {
+    display: block;
+}
+.menu_main a {
+    font-size: 16px;
+    font-family: sansation_light;
+}
+.header_menu_link {
+    margin-top: 0px;
+}
+.menu_main ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu_main a:hover {
+    color: #126b75;
+}
+.one {
+    background-image: url("img/one.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 10%;
+}
+#main_title {
+    color: white;
+    font-size: 20pt;
+    font-family: sansation_bold;
+    width: 60%;
+    outline: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#main_title p {
+    font-family: sansation_light;
+    font-size: 14px;
+}
+.btn_hire_us {
+    position: relative;
+    background: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 10%;
+    outline: 2px solid white;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -25px;
+    z-index: 3;
+}
+.icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    opacity: 50%;
+    margin-left: 5px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon_facebook {
+    background-image: url('img/icons/facebook.png');
+}
+.icon_twitter {
+    background-image: url('img/icons/twitter.png');
+}
+.icon_google_plus {
+    background-image: url('img/icons/google_plus.png');
+}
+.header_menu_link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.arrow {
+    color: white;
+    border: 1px solid white;
+    font-family: sansation_light;
+    opacity: 20%;
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.arrow_left {
+    float: left;
+}
+.arrow_right {
+    float: right;
+}
+.about_us {
+    width: 100%;
+    display: flex;
+}
+.about_us_img {
+    flex: 1;
+}
+.about_us_text {
+    flex: 1;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+.about_us_text h1 {
+    font-family: sansation_light;
+    font-size: 35px;
+    margin: 7%;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+.about_us_text p {
+    font-family: sansation_light;
+    margin: 7%;
+    margin-bottom: 5%;
+    margin-top: 0 auto;
+    font-size: 14px;
+}
+.about_us_btn {
+    font-family: sansation_light;
+    margin-left: 7%;
+    margin-top: -5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    background-color: rgb(5, 160, 175);
+    color: white;
+    letter-spacing: 1px;
+}
+.our_services  {
+    color: white;
+    font-family: sansation_light;
+    background-color: rgb(55, 55, 55);
+    margin-top: -5%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+.our_services_all {
+    display: flex;
+}
+.web_dev {
+    flex: 1;
+}
+.web_dev1, .web_dev3 {
+    background-color: rgb(61, 61, 61);
+}
+.web_dev2 {
+    background-color: rgb(9, 126, 137);
+}
+
+.web_dev_img {
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+.web_dev {
+    text-align: center;
+    color: white;
+}
+.web_dev h2 {
+    margin-top: 10%;
+    font-family: sansation_bold;
+    font-size: 24pt;
+    
+}
+.web_dev p {
+    font-family: sansation_light;
+    font-size: 14pt;
+}
+.web_dev_btn {
+    margin-top: 5%;
+    font-family: sansation_light;
+    color: white;
+    background-color: rgb(147, 147, 147);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12pt;
+    margin-bottom: 25%;
+}
+.web_dev_arrow {
+    font-size: 50px;
+    font-family: sansation_light;
+    color: rgb(61, 61, 61);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(9, 126, 137);
+    margin-left: 1px;
+    float: right;
+}
+
+.feedback {
+    background-color: rgb(55, 55, 55);
+    margin-top: -5%;
+    color: white;
+    font-family: sansation_light;
+}
+.header_block {
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.header_block h1 {
+    font-size: 40px;
+    text-align: center;
+    flex: 1;
+}
+.feedback_ {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    position:relative;
+}
+.feedback_people {
+    display: flex;
+    height: 100%;
+    background-color: rgb(63, 63, 63);
+}
+
+.feedback_people_text {
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 5%;
+    opacity: 50%;
+}
+.person_text {
+    width: 100%;
+    position:absolute;
+    margin-top: -20%;
+    display: flex;
+}
+.person_text_num {
+    flex: 1;
+    /* padding: 10px; */
+    height: 33px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-top: 1%;
+    /* margin: 10%; */
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+.person_name {
+    flex: 5;
+    display: flex;
+    height: 33px;
+    background-color: white;
+    color: black;
+    margin-right: 5%;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.feedback_arrow {
+    display: flex;
+}
+.feedback_arrow p{
+    flex: 1;
+    margin-top: 18%;
+}
+.feedback_arrow h1 {
+    font-size: 40pt;
+}
+.clients {
+    color: white;
+    margin-top: 0px;
+    padding-top: 5%;
+    /* padding-bottom: 7%; */
+
+    background-color: white;
+    margin-top: 0;
+    /* padding-top: 3%; */
+    color: rgb(101, 100, 100);
+    font-family: sansation_light;
+}
+.clients h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.clients_icon {
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+.clients_icon2 {
+    margin-bottom: 4%;
+}
+.cl_i {
+    flex: 1;
+    margin-top: 4%;
+}
+.cl_i p {
+    text-align: center;
+}
+.client_about_1, .client_about_2 {
+    background-color: rgb(251, 251, 251);
+}
+.client_about_1 {
+    height: 30px;
+    margin-top: -2%;
+}
+.client_about_2 {
+    height: 50px;
+}
+.any_queries {
+    background-color: rgb(72, 125, 135);
+    margin-top: -4%;
+    color: white;
+    font-family: sansation_light;
+    display: flex;
+    padding-bottom: 5%;
+}
+.any_text {
+    flex: 1;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+.any_text_input {
+    flex: 1;
+    margin-top: 5%;
+}
+.any_text_input input {
+    background-color: rgb(72, 125, 135);
+    color: white;
+    padding-left: 5%;
+    width: 30%;
+    height: 40px;
+    margin: -1%;
+    font-family: sansation_light;
+}
+.any_text_input button {
+    background-color: white;
+    color: rgb(72, 125, 135);
+    width: 15%;
+    height: 45px;
+    margin: -1%;
+    font-family: sansation_light;
+
+}
+.any_text_input input::placeholder {
+    color: white;
+}
+
+#footer {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-family: sansation_light;
+    display: flex;
+    padding-top: 2%;
+}
+.f_product {
+    padding-left: 5%;
+    flex: 1;
+}
+.f_learn, .f_company {
+    flex: 1;
+}
+.f_mail, .f_empty {
+    flex: 2;
+}
+.f_product ul, .f_learn ul, .f_company ul {
+    padding: 0;
+}
+.f_product li, .f_learn li, .f_company li{
+    list-style-type: none;
+}
+.f_mail {
+    width: 80%;
+}
+.f_mail input {
+    width: 50%;
+    height: 40px;
+    background-color: rgb(203, 203, 203);
+    font-size: 12pt;
+    margin: -1%;
+    font-family: sansation_light;
+}
+.f_mail button {
+    width: 30%;
+    height: 46px;
+    background-color: rgb(64, 113, 184);
+    color: white;
+    font-size: 12pt;
+    margin: -0.5%;
+    font-family: sansation_light;
+}
+.f_link {
+    display: flex;
+    width: 80%;
+    margin-top: 10%;
+}
+.f_icon {
+    flex: 1;
+    background-color: rgb(50, 50, 50);
+    margin: 1%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+.f_icon p {
+    text-align: center;
+}
+.underline {
+    border-bottom: 1px solid white;
+    flex: 2;
+    display: flex;
+}
+.underline_empty {
+    flex: 4;
+}
+.underline_bold {
+    flex: 1;
+    margin-bottom: -2px;
+    border-bottom: 4px solid white;
+}
+
+.header_block {
+    display: flex;
+    height: 65px;
+    margin-bottom: 5%;
+}
+.underline_clients_b {
+    border-bottom: 4px solid rgb(101, 100, 100);
+}
+.underline_clients_e {
+    border-bottom: 1px solid rgb(101, 100, 100);
+}
+.about_us_underline {
+    display: flex;
+    width: 86%;
+    margin-left: 7%;
+}
+.about_us_underline_b {
+    flex: 1;
+    margin-bottom: -2px;
+    border-bottom: 4px solid rgb(101, 100, 100);
+}
+.about_us_underline_e {
+    flex: 4;
+    border-bottom: 1px solid rgb(101, 100, 100);
+}
+
+@media screen and (max-width: 885px) {
+    .about_us {
+        display: inline;
+    }
+    .about_us_img {
+        display: none;
+    }
+    .about_us_text {
+        margin-top: 0px;
+        padding-top: 3%;
+    }
+    .about_us_text h1 {
+        margin: 5%;
+    }
+    .about_us_btn {
+        margin-bottom: 5%;
+    }
+    .web_dev h2 {
+        font-size: 16pt;
+    }
+    .web_dev p {
+        font-size: 10pt;
+    }
+    #main_title {
+        margin-top: 5%;
+        padding-bottom: 0px;
+    }
+    #main_title h1{
+        font-size: 20pt;
+    }
+    #main_title p {
+        font-size: 10pt;
+        padding-bottom: 4%;
+    }
+    .btn_hire_us {
+        font-size: 8pt;
+    }
+    .person_text {
+        font-size: 10pt;
+    }
+    .person_name {
+        height: 27px;
+    }
+    .person_text_num {
+        height: 27px;
+    }
+}
